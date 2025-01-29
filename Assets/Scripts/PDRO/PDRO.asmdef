@@ -1,0 +1,18 @@
+{
+    "name": "PDRO",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7ab3663edede26740845931880bf22af",
+        "GUID:6e1ceb5b6422b434084667bb46a254f6",
+        "GUID:9f6b1bcbf19358a4bacdefb687d400c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
