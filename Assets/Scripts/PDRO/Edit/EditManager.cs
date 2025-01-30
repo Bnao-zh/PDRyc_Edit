@@ -246,6 +246,7 @@ public class EditManager : MonoSingleton<EditManager>
 
     void Start()
     {
+        EditNotePosXFactor = 0.01806073f;
         Application.targetFrameRate = -1;
         Reload(true);
     }
@@ -707,11 +708,6 @@ public class EditManager : MonoSingleton<EditManager>
         if (GetControlKey() && !Input.GetKey(KeyCode.V))
         {
             EditFallSpeed += mouseScroll * 200f * EditFallSpeed / 500f;
-        }
-        // 如果X+鼠标滚轮就改变NoteX缩放
-        else if (Input.GetKey(KeyCode.X))
-        {
-            EditNotePosXFactor += mouseScroll * 0.02f * EditNotePosXFactor / 0.05f;
         }
         // 如果只有鼠标滚轮就改变时间
         else if (Mathf.Abs(mouseScroll) > 0)

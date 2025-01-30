@@ -115,7 +115,7 @@ public class EditNoteManager : MonoSingleton<EditNoteManager>
             while (true)
             {
                 var posX = ClampFactor * temp / EditManager.Instance.EditNotePosXFactor;
-                if (posX > 350f) break;
+                if (posX > 250f) break;
 
                 var ins = GetPosXLine();
                 ins.gameObject.SetActive(true);
@@ -128,7 +128,7 @@ public class EditNoteManager : MonoSingleton<EditNoteManager>
             while (true)
             {
                 var posX = -ClampFactor * temp / EditManager.Instance.EditNotePosXFactor;
-                if (posX < -350f) break;
+                if (posX < -250f) break;
 
                 var ins = GetPosXLine();
                 ins.gameObject.SetActive(true);
@@ -373,7 +373,7 @@ public class EditNoteManager : MonoSingleton<EditNoteManager>
             posX = (mousePos.x - EditNoteTransform.position.x) / (EditNoteTransform.position.x / 400f);
         }
 
-        if (Mathf.Abs(posX) > 350f) return;
+        if (Mathf.Abs(posX) > 275f) return;
 
         if (type is NoteType.Hold)
         {

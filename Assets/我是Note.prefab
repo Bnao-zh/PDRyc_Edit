@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3522235600057121129}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -114,7 +113,6 @@ RectTransform:
   m_Children:
   - {fileID: 3522235599944469418}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -158,7 +156,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.8
 --- !u!114 &3522235600057121128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,13 +217,12 @@ MonoBehaviour:
   NoteTypeText: {fileID: 3522235599944469417}
   CurrentButton: {fileID: 3522235600057121128}
   CurrentData:
-    LineIndex: 0
-    NoteIndex: 0
-    FallDirection: 1
-    NoteType: 0
-    PosX: 0
-    LengthX: 1
     HitTime: 0
+    FallDirection: 1
+    PosX: 0
+    NoteType: 0
+    LengthX: 1
     HoldTime: 0
     IsFake: 0
+    NoteIndex: 0
     IsHighlight: 0
