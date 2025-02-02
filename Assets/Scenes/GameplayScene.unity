@@ -15207,7 +15207,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1081023397}
   m_HandleRect: {fileID: 1081023396}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -19169,7 +19169,7 @@ RectTransform:
   m_GameObject: {fileID: 1166498548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0113941, y: 1.0113941, z: 1.0113941}
+  m_LocalScale: {x: 1.009787, y: 1.009787, z: 1.009787}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2069232414}
@@ -30806,6 +30806,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64a90483f3d11d948a250622c2028848, type: 2}
   - {fileID: 11400000, guid: a77ed8d100fab504fb5f7eaec71b91c3, type: 2}
   - {fileID: 11400000, guid: 214543f81612b8340973773b464653f1, type: 2}
+  - {fileID: 11400000, guid: bef33e6c80551744f887a0f1f8385cbd, type: 2}
   - {fileID: 11400000, guid: e1bbc49b01e9fd7489bfc3ebf6ec1e45, type: 2}
   - {fileID: 11400000, guid: ce0865a0a89bf2a4a8a280be3047e8f6, type: 2}
   - {fileID: 11400000, guid: d25d2b9d377b8a14b849923a5fc2b588, type: 2}

@@ -436,7 +436,15 @@ public class EditManager : MonoSingleton<EditManager>
         if (isLoadLocal)
         {
             //读取新的谱面
-            var path = Application.dataPath + "/" + PlayerPrefs.GetString("Chart_Path", "0.txt");
+            var path = Application.persistentDataPath + "/" + PlayerPrefs.GetString("Chart_Path", "0.txt");
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                path = Application.persistentDataPath + "/" + PlayerPrefs.GetString("Chart_Path", "0.txt");
+            }
+            else
+            {
+                path = Application.dataPath + "/" + PlayerPrefs.GetString("Chart_Path", "0.txt");
+            }
 
             string str;
             try
