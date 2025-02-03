@@ -16,15 +16,15 @@ PDRyc_Edit是基于[GBTP/PDRO_Editor](https://github.com/GBTP/PDRO_Editor)项目
 
 - **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Tap.png**
 - **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Tap_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Drag.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Drag_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Flick.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Flick_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Hold_Body.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Hold_Body_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Hold_End.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Hold_Start.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Hold_Start_HL.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Drag/Drag.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Drag/Drag_HL.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Flick/Flick.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Flick/Flick_HL.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Body.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Body_HL.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_End.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Start.png**
+- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Start_HL.png**
 - **[Aa]ssets/[Gg]ameplayAssets/Track/Track_Body.png**
 - **[Aa]ssets/[Gg]ameplayAssets/Track/Track_Bottom1.png**
 - **[Aa]ssets/[Gg]ameplayAssets/HitSound/Tap+Hold.ogg**
