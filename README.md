@@ -14,23 +14,23 @@ PDRyc_Edit是基于[GBTP/PDRO_Editor](https://github.com/GBTP/PDRO_Editor)项目
  
 以下是需要您自行添加的文件及其路径：
 
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Tap.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Tap/Tap_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Drag/Drag.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Drag/Drag_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Flick/Flick.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Flick/Flick_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Body.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Body_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_End.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Start.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Notes/Hold/Hold_Start_HL.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Track/Track_Body.png**
-- **[Aa]ssets/[Gg]ameplayAssets/Track/Track_Bottom1.png**
-- **[Aa]ssets/[Gg]ameplayAssets/HitSound/Tap+Hold.ogg**
-- **[Aa]ssets/[Gg]ameplayAssets/HitSound/Drag.ogg**
-- **[Aa]ssets/[Gg]ameplayAssets/HitSound/Flick.ogg**
-- **[Aa]ssets/[Gg]ameplayAssets/HitFX/Meterials/HitTexture.png**
+- **Assets/GameplayAssets/Notes/Tap/Tap.png**
+- **Assets/GameplayAssets/Notes/Tap/Tap_HL.png**
+- **Assets/GameplayAssets/Notes/Drag/Drag.png**
+- **Assets/GameplayAssets/Notes/Drag/Drag_HL.png**
+- **Assets/GameplayAssets/Notes/Flick/Flick.png**
+- **Assets/GameplayAssets/Notes/Flick/Flick_HL.png**
+- **Assets/GameplayAssets/Notes/Hold/Hold_Body.png**
+- **Assets/GameplayAssets/Notes/Hold/Hold_Body_HL.png**
+- **Assets/GameplayAssets/Notes/Hold/Hold_End.png**
+- **Assets/GameplayAssets/Notes/Hold/Hold_Start.png**
+- **Assets/GameplayAssets/Notes/Hold/Hold_Start_HL.png**
+- **Assets/GameplayAssets/Track/Track_Body.png**
+- **Assets/GameplayAssets/Track/Track_Bottom1.png**
+- **Assets/GameplayAssets/HitSound/Tap+Hold.ogg**
+- **Assets/GameplayAssets/HitSound/Drag.ogg**
+- **Assets/GameplayAssets/HitSound/Flick.ogg**
+- **Assets/GameplayAssets/HitFX/Meterials/HitTexture.png**
   
 ---
 *~~其实这个自述是AI写的()~~*
