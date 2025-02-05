@@ -110,6 +110,11 @@ public class EditManager : MonoSingleton<EditManager>
 
     public bool IsAuto = true;
     public bool ShowUI = true;
+    public Camera GameCamera;
+    public Camera FreeCamera;
+    public GameObject gamebg;
+    public GameObject freebg;
+    public bool IsFreeCamera = false;
     public Transform[] P2Switch;
 
     public Transform[] EditSomeThing;
@@ -644,6 +649,36 @@ public class EditManager : MonoSingleton<EditManager>
             }
 
             Reload(false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            IsFreeCamera = !IsFreeCamera;
+            if (IsFreeCamera)
+            {
+                //切换自由摄像头
+                FreeCamera.enabled = true;
+                GameCamera.enabled = false;
+                //设置下背景
+                freebg.SetActive(true);
+                gamebg.SetActive(false);
+                Cursor.lockState = CursorLockMode.Locked;//锁定鼠标
+                Cursor.visible = false;
+                //将自由摄像头移动到主摄像头位置
+                FreeCamera.transform.position = GameCamera.transform.position;
+                //用了鼠标向量，转了也没用，懒得改了略略略
+                //FreeCamera.transform.rotation = GameCamera.transform.rotation;
+            }
+            else
+            {
+                //换回主摄像头
+                GameCamera.enabled = true;
+                FreeCamera.enabled = false;
+                gamebg.SetActive(true);
+                freebg.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;//解锁鼠标
+                Cursor.visible = true;
+            }
         }
 
         //编辑Note的时按下F更换下落面

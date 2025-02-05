@@ -10,6 +10,7 @@ namespace PDRO.Gameplay.Controls
 {
     public class CameraControl : MonoSingleton<CameraControl>
     {
+        public Transform cameraTransform;
         public CameraData CurrentData;
 
         public Camera GameCamera;
@@ -18,6 +19,11 @@ namespace PDRO.Gameplay.Controls
 
         public float AspectRatioDelta;
         public float ScreenAspectRatio;
+        void Start()
+        {
+            // 初始化cameraTransform为当前Transform
+            cameraTransform = transform;
+        }
 
         public void Init(CameraData data)
         {
