@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class FrameRateLimiter : MonoBehaviour
 {
-public int targetFrameRate = -1;
+    public int targetFrameRate = -1;
 }
 
 public class EditEventControl : MonoBehaviour
@@ -41,8 +41,8 @@ public class EditEventControl : MonoBehaviour
 
         SVText.text = NumData.StartValue.ToString();
         EVText.text = NumData.EndValue.ToString();
-        SVText.color = new Color(1f,1f,1f,1f);
-        EVText.color = new Color(1f,1f,1f,1f);
+        SVText.color = new Color(1f, 1f, 1f, 1f);
+        EVText.color = new Color(1f, 1f, 1f, 1f);
     }
 
     public void Init(ColorEventData data, int id)
@@ -73,19 +73,50 @@ public class EditEventControl : MonoBehaviour
         SVText.text = ColorData.StartValue.a.ToString();
         EVText.text = ColorData.EndValue.a.ToString();
 
-        SVText.color = new Color(1f,0.3f,0f,1f);
-        EVText.color = new Color(1f,0.3f,0f,1f);
+        SVText.color = new Color(1f, 0.3f, 0f, 1f);
+        EVText.color = new Color(1f, 0.3f, 0f, 1f);
     }
 
     void Update()
     {
-        if (EventEditPanelControl.Instance.NumData == NumData || EventEditPanelControl.Instance.ColorData == ColorData)
+        // if (EventEditPanelControl.Instance.NumData == NumData || EventEditPanelControl.Instance.ColorData == ColorData)
+        // {
+        //     if (EventEditPanelControl.Instance.NumData == NumData)
+        //     {
+        //         CurrentButton.image.color = Color.red;
+        //     }
+        //     else
+        //     {
+        //         CurrentButton.image.color = Color.blue;
+        //     }
+        // }
+        // else
+        // {
+        //     CurrentButton.image.color = new Color(1f, 1f, 1f, 0.6f);
+        // }
+
+        //暴力处理错误的事件选择颜色（什
+        if (IsColor)
         {
-            CurrentButton.image.color = Color.black;
+            if (EventEditPanelControl.Instance.ColorData == ColorData)
+            {
+                CurrentButton.image.color = Color.black;
+            }
+            else
+            {
+                CurrentButton.image.color = new Color(1f, 1f, 1f, 0.6f);
+            }
         }
         else
         {
-            CurrentButton.image.color = new Color(1f, 1f, 1f, 0.6f);
+            if (EventEditPanelControl.Instance.NumData == NumData)
+            {
+                CurrentButton.image.color = Color.black;
+            }
+            else
+            {
+                CurrentButton.image.color = new Color(1f, 1f, 1f, 0.6f);
+            }
         }
     }
 

@@ -24,10 +24,10 @@ public class EditNoteControl : MonoBehaviour
 
         CurrentButton.image.color = data.NoteType switch
         {
-            NoteType.Tap => new Color(0f, 1f, 1f, 0.75f),
-            NoteType.Drag => new Color(1f, 1f, 0f, 0.75f),
-            NoteType.Hold => new Color(0f, 1f, 0f, 0.75f),
-            NoteType.Flick => new Color(0.8f, 0.2f, 0.2f, 0.75f),
+            NoteType.Tap => new Color(0.69f, 0.96f, 0.937f, 0.75f),
+            NoteType.Drag => new Color(0.953f, 0.866f, 0.49f, 0.75f),
+            NoteType.Hold => new Color(0.69f, 0.96f, 0.063f, 0.75f),
+            NoteType.Flick => new Color(1f, 0.384f, 0.3f, 0.75f),
             _ => throw new System.Exception("aaaaaaaaaaa")
         };
     }
@@ -42,10 +42,10 @@ public class EditNoteControl : MonoBehaviour
         {
             CurrentButton.image.color = CurrentData.NoteType switch
             {
-                NoteType.Tap => new Color(0f, 1f, 1f, 0.75f),
-                NoteType.Drag => new Color(1f, 1f, 0f, 0.75f),
-                NoteType.Hold => new Color(0f, 1f, 0f, 0.75f),
-                NoteType.Flick => new Color(0.8f, 0.2f, 0.2f, 0.75f),
+                NoteType.Tap => new Color(0.69f, 0.96f, 0.937f, 0.75f),
+                NoteType.Drag => new Color(0.953f, 0.866f, 0.49f, 0.75f),
+                NoteType.Hold => new Color(0.69f, 0.96f, 0.063f, 0.75f),
+                NoteType.Flick => new Color(1f, 0.384f, 0.3f, 0.75f),
                 _ => throw new System.Exception("aaaaaaaaaaa")
             };
         }
